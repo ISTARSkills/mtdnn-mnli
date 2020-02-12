@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef143480-130f-4822-8a41-12c9e2d57b94" name="Default Changelist" comment="mtdnn-mnli-flask">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mtdnn-mnli.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/calc_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/data_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/data_utils/gpt2_bpe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/data_utils/log_wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/data_utils/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/data_utils/mrc_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/data_utils/squad_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/data_utils/task_def.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/data_utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/data_utils/vocab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/data_utils/xlnet_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/download.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/common_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/exp_def.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/glue/.prepro.sh.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/glue/generate_task_def.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/glue/glue_label_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/glue/glue_prepro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/glue/glue_task_def.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/glue/glue_task_def_robert.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/glue/glue_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/glue/prepro.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/mlm/mlm.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/mlm/mlm_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/ner/ner_task_def.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/ner/ner_task_def_roberta.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/ner/ner_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/ner/prepro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/squad/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/squad/squad_prepro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/squad/squad_task_def.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/squad/squad_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/experiments/squad/verify_calc_span.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/bert/uncased_L-24_H-1024_A-16/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/bert/uncased_L-24_H-1024_A-16/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/script/hnn_config_large.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/script/hnn_train_large.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/script/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/apps/arguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/apps/dataloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/apps/dataparallel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/apps/hnn_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/apps/hnn_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/apps/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/apps/run_hnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/apps/training_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/bert/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/bert/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/bert/convert_tf_checkpoint_to_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/bert/init_spec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/bert/modeling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/bert/optimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/bert/tokenization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/functions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/functions/ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/module/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/module/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/module/pooling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/module/tf_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/optims/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/optims/lr_schedulers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/utils/argument_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/hnn/src/utils/logger_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/input_examples/mlm_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/input_examples/pair-input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/input_examples/single-input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/mnli_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/module/bert_optim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/module/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/module/dropout_wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/module/my_optim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/module/san.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/module/similarity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/module/sub_layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/mt_dnn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/mt_dnn/batcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/mt_dnn/inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/mt_dnn/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/mt_dnn/matcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/mt_dnn/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/prepare_distillation_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/prepro_std.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/run_toy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/CoLA/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/CoLA/test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/CoLA/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/MNLI/dev_matched.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/MNLI/dev_mismatched.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/MNLI/test_matched.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/MNLI/test_mismatched.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/MNLI/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/MRPC/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/MRPC/test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/MRPC/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/QNLI/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/QNLI/test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/QNLI/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/QQP/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/QQP/test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/QQP/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/RTE/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/RTE/test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/RTE/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/SNLI/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/SNLI/test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/SNLI/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/SST-2/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/SST-2/test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/SST-2/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/STS-B/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/STS-B/test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/STS-B/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/SciTail/tsv_format/scitail_1.0_dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/SciTail/tsv_format/scitail_1.0_test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/SciTail/tsv_format/scitail_1.0_train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/WNLI/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/WNLI/test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/WNLI/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/input/my_head.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/cola_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/cola_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/cola_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/mnli_matched_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/mnli_matched_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/mnli_mismatched_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/mnli_mismatched_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/mnli_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/mrpc_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/mrpc_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/mrpc_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/qnli_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/qnli_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/qnli_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/qqp_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/qqp_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/qqp_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/rte_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/rte_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/rte_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/scitail_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/scitail_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/scitail_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/snli_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/snli_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/snli_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/sst_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/sst_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/sst_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/stsb_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/stsb_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/stsb_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/wnli_dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/wnli_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/sample_data/output/wnli_train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/convert_tf_to_pt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/domain_adaptation_run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/run_mnli.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/run_mt_dnn.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/run_mt_dnn_gc_fp16.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/run_rte.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/run_rte_mt_dnn_kd.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/run_stsb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/scitail_domain_adaptation_bash.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/snli_domain_adaptation_bash.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/scripts/strip_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/test_cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/tests/_test_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/tests/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/tests/test_prepro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/tutorials/Run_Your_Own_Task_in_MT-DNN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mt-dnn/tutorials/Run_Your_Own_Task_in_MT-DNN.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Xi4WRXkUmtm8Lj230RkL6O8NCz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef143480-130f-4822-8a41-12c9e2d57b94" name="Default Changelist" comment="" />
+      <created>1581515612070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581515612070</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mtdnn-mnli-flask" />
+    <option name="LAST_COMMIT_MESSAGE" value="mtdnn-mnli-flask" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1559" y="639" width="782" height="915" key="CommitChangelistDialog2" timestamp="1581515854537">
+      <screen x="70" y="27" width="3770" height="2133" />
+    </state>
+    <state x="1559" y="639" width="782" height="915" key="CommitChangelistDialog2/70.27.3770.2133@70.27.3770.2133" timestamp="1581515854537" />
+  </component>
+</project>
